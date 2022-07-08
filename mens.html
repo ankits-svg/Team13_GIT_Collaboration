@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  #box1{
+    /* border: 1px solid red; */
+    width:50%;
+    height: auto;
+    display: grid;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+    
+
+  }
+  #box1>div{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+  }
+  
+  #box1>img{
+    width: 50%;
+
+  }
+  #box1>div>h1{
+    color: teal;
+  }
+  #box1>div>h2{
+    color: orange;
+  }
+</style>
+<body>
+    <div id="box1">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/41ykN2Cwe7L._AC_UL320_.jpg" alt="error">
+            <h2>JUGULAR</h2>
+            <p>Boys Regular Fit Henley Neck T-Shirt</p>
+            <h1>₹299 <s>₹888</s> (66% off)</h1>
+        
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61W7Hz6ssYL._AC_UL320_.jpg" alt="error">
+            <h2>HELLCAT</h2>
+            <p>Boys Printed Henley Neck & Hooded</p>
+            <h1>₹488 <s>₹1999</s> (76% off)</h1>
+        </div>
+    </div>
+</body>
+</html>
